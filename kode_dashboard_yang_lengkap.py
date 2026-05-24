@@ -67,9 +67,6 @@ for col in kolom_kategori:
     print(f"Total: {df[col].nunique()} kategori\n")
 
 """# Masukan di streamlita_app.py"""
-
-!pip install streamlit
-
 import streamlit as st
 import pandas as pd
 import numpy as np
